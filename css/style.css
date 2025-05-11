@@ -1,0 +1,20 @@
+body{
+
+}
+.wrap{
+    margin: 0 auto;
+    width: 1920px;
+    background-color: #b4a2a2;
+}
+
+.flex{
+    display: flex;
+}
+
+article{
+    flex-wrap: wrap;
+}
+
+.card{
+    display: block;
+}
