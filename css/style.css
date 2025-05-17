@@ -1,20 +1,108 @@
 body{
-
-}
-.wrap{
-    margin: 0 auto;
-    width: 1920px;
-    background-color: #b4a2a2;
+    font-family:'Noto Sans TC', Arial, Helvetica, sans-serif;
 }
 
+/* 模組 */
 .flex{
     display: flex;
 }
 
-article{
-    flex-wrap: wrap;
+.btn-gray{
+    display: inline-block;
+    text-align: center;
+    padding: 8px 16px;
+    border-radius: 40px;
+    border:#4B4B4B 1px solid;
+}
+
+/* 省略多行 */
+.multiline-ellipsis{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/* color */
+.color-blue{
+    color:#0027D5;
+}
+
+.color-gray{
+    color: #4B4B4B;
+}
+
+.bg-blue{
+    color:#0027D5;
+}
+
+.bg-gray{
+    color: #4B4B4B;
+}
+
+
+/* 區域css */
+.wrap{
+    margin: 0 auto;
+    max-width: 1920px;
+    background-color: #b4a2a2;
+}
+
+
+
+.article{
+    margin: 80px auto;
+    width: 67.5%;
 }
 
 .card{
-    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+.card-item{
+    width: 30%;
+    padding: 40px 0;
+}
+
+.card-item>a{
+    display: block;
+    text-decoration: none;
+}
+
+.card-item>a:hover{
+    border: 1px solid #0027D5;
+}
+
+.card-item img{
+    width: 416px;
+    height: auto;
+}
+
+.text .date{
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    color: #000;
+}
+
+.text .tag a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.text h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.text p{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.text .desc{
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
