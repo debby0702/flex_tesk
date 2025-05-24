@@ -32,6 +32,7 @@ body{
     font-size: 16px;
     border-radius: 40px;
     background-color: #0027d5;
+    border:#0027d5 1px solid;
 }
 
 .btn-blue:hover{
@@ -83,7 +84,7 @@ body{
 }
 
 .card-item .img{
-    width: 416px;
+    width: 100%;
     height: auto;
 }
 
@@ -130,15 +131,4 @@ body{
     .card-item{
         width: 100%;
     }
-
-    .card-item .img{
-    width: 100%;
-    height: auto;
-    background-color: #0027D5;
-    }
-
-    /* .card-item .img{
-        max-width: 100%;
-        height: auto;
-    } */
 }
