@@ -49,7 +49,16 @@ table {
 }
 
 img{
+    display: inline-block;
+	vertical-align: middle;
+	/* 強制依照父容器收縮 */
 	max-width: 100%;
 	height: auto;
-    display: inline-block;
+}
+
+a{
+	display: inline-block;
+	text-decoration: none;
+	/* 繼承父層顯色 */
+	color: inherit;
 }
