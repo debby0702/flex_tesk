@@ -110,8 +110,7 @@ body{
 
 @media(max-width: 992px) {
     .article{
-        max-width: 100%;
-        background-color: aqua;
+
     }
 
     .card-item{
