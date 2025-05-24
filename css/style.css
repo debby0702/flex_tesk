@@ -131,6 +131,12 @@ body{
         width: 100%;
     }
 
+    .card-item .img{
+    width: 100%;
+    height: auto;
+    background-color: #0027D5;
+    }
+
     /* .card-item .img{
         max-width: 100%;
         height: auto;
